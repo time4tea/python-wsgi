@@ -1,6 +1,9 @@
 from bottle import run
+import bottle
 
 import todo
 
-run()
+bottle.debug(True)
+
+run(reloader=True)
 
